@@ -2,7 +2,7 @@
 
 Record and visualize trajectories of emergency service helicopters over Toulouse from ADS-B data (provided by the [OpenSky Network](https://opensky-network.org/)) with the Python library [traffic](https://traffic-viz.github.io/).
 
-Under the hood, data are stored with [GeoPandas](http://geopandas.org/) and maps are realized with [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/)
+Under the hood, data are stored with [pandas](https://pandas.pydata.org/) and maps are realized with [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/)
 
 Example: one week helicopters' operations in Winter 2020
 
@@ -18,7 +18,7 @@ You can use it to generate a map in HTML with embed_minimal_html
 
 ## Built With
 * [traffic](https://traffic-viz.github.io/) - Air traffic data processing in Python
-* [GeoPandas](http://geopandas.org/) - GeoPandas is an open source project which extends the datatypes used by pandas to allow spatial operations on geometric types. 
+* [pandas](https://pandas.pydata.org/) - Python Data Analysis Library
 * [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/) - Interactive maps in the Jupyter notebook
 
 
